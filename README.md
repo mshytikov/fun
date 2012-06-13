@@ -14,4 +14,5 @@ http://ip_address:9292?text=Hello
 COMPILATION is simple with ocrea -  http://ocra.rubyforge.org/
 
 $ gem install ocra
+
 $ ocra fun.rb wget.exe madplay.exe
