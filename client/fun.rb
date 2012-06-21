@@ -15,7 +15,8 @@ ip = Socket::getaddrinfo(Socket.gethostname, "echo",  Socket::AF_INET)[0][3]
 puts "My IP #{ip}"
 Dir.chdir File.dirname($0)
 
-system %Q| wget.exe http://10.1.13.132:9292?ip=#{ip} |
+# Uncomment this line if you want to use central for collectiong ips server
+#system %Q| wget.exe http://10.1.13.132:9292?ip=#{ip} |
 
 
 Rack::Server.start :Port=> 9292, :app => lambda { |env|
