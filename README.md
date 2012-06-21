@@ -11,8 +11,15 @@ This app created specially for fun purposes.
 
 http://ip_address:9292?text=Hello
 
-COMPILATION is simple with ocrea -  http://ocra.rubyforge.org/
 
-$ gem install ocra
+COMPILATION is simple with ocra -  http://ocra.rubyforge.org/
 
-$ ocra fun.rb wget.exe madplay.exe
+Install required gems 
+
+$ bundle
+
+
+To compile use 
+
+$ rake
+
